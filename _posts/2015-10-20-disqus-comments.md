@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with disqus comments
 date: 2015-10-20 11:59:00-0400
@@ -9,4 +9,4 @@ disqus_comments: true
 related_posts: false
 ---
 
-This post shows how to add DISQUS comments.
+This post shows how to add DISQUS comments. -->

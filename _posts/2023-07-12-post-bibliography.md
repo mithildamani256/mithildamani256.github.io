@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: a post with bibliography
 date: 2023-07-12 09:56:00-0400
@@ -19,4 +19,4 @@ sed do eiusmod tempor.
 Lorem ipsum dolor sit amet, consectetur adipisicing.
 {% endquote %}
 
-If you would like something more academic, check the [distill style post]({% post_url 2018-12-22-distill %}).
+If you would like something more academic, check the [distill style post]({% post_url 2018-12-22-distill %}). -->
