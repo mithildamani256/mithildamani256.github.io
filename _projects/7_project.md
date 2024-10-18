@@ -10,6 +10,7 @@ related_publications: true
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this model, it is possible to detect people wearing masks, not wearing them, or wearing masks improperly.
 
+<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>.
 
 <div class="row">
         <div class="col-sm mt-3 mt-md-0">
@@ -43,6 +44,3 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 <div class="caption">
 This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.
 </div>
-
-
-Kaggle notebook: <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>.
