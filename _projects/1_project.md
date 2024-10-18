@@ -10,6 +10,8 @@ related_publications: true
 
 In an era where digital content can be crafted and manipulated with alarming ease, the line between reality and artificiality blurs, presenting not only technological advancements but also ethical dilemmas and potential dangers. Deepfake technology, a profound testament to AI's capabilities, allows for the creation of incredibly realistic images and videos that are nearly indistinguishable from authentic content. This rise in synthetic media poses significant risks, from misinformation to identity theft, making it imperative to develop robust mechanisms for discerning these AI-generated fabrications from genuine images.
 
+<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/code/mithildamani/synthcheck/">here</a>.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/trainval-accuracyloss.png" title="example image" class="img-fluid rounded z-depth-1" %}
