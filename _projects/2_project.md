@@ -2,7 +2,7 @@
 layout: page
 title: wlp4-compiler
 description: A WLP4 (subset of C) compiler written in C++ that compiles to MIPS assembly.
-img: assets/img/3.jpg
+img: assets/img/compiler.jpg
 importance: 2
 category: work
 giscus_comments: true
