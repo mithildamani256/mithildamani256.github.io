@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Facemask detection
-description: fine-tuned yolov8 model for face-mask detection and localization
+description: Fine-tuned YOLOv8 model for face-mask detection and localization
 img: assets/img/dataset-cover.jpg
 importance: 1
 category: work
@@ -27,8 +27,22 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 </div>
 
 <div class="caption">
-This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
+This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.
 </div>
+
+<div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Face-mask-labels.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+            <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Face-mask-preds.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+The left image displays the ground truth labels for a set of validation images, while the right image shows the model’s predictions with corresponding probabilities. 
+</div>
+
+
 
 <!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
