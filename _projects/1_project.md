@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SynthCheck
-description: ai model for Synthetic vs. Real Image classification
+description: AI model for Synthetic vs. Real Image classification
 img: assets/img/dataset-cover.png
 importance: 1
 category: work
