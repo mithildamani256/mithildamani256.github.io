@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: SynthCheck
+description: ai model for Synthetic vs. Real Image classification
+img: assets/img/dataset-cover.png
 importance: 1
 category: work
 related_publications: true
