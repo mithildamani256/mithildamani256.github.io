@@ -17,5 +17,5 @@ In an era where digital content can be crafted and manipulated with alarming eas
 </div>
 
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+The left graph displays the training and validation loss per epoch, indicating how the model's error rates decreased over time. The right graph shows the training and validation accuracy per epoch, illustrating improvements in the model's ability to correctly classify images.
 </div>
