@@ -5,7 +5,7 @@ description: Fine-tuned YOLOv8 model for face-mask detection and localization
 img: assets/img/dataset-cover.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this model, it is possible to detect people wearing masks, not wearing them, or wearing masks improperly.
@@ -42,5 +42,5 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 </div>
 
 <div class="caption">
-This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.
+This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn'.
 </div>
