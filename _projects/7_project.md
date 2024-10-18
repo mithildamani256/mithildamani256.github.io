@@ -45,4 +45,4 @@ This curve demonstrates how the F1 score, a balanced measure of precision and re
 </div>
 
 
-You can find the <a href="https://www.kaggle.com/mithildamani/face-mask-detection">Kaggle notebook</a> here.
+Kaggle notebook: <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>.
