@@ -8,6 +8,9 @@ let toggleThemeSetting = () => {
   } else if (themeSetting == "light") {
     setThemeSetting("dark");
   }
+  else {
+    setThemeSetting("light");
+  }
 };
 
 // Change the theme setting and apply the theme.
