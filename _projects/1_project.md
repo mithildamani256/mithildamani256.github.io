@@ -10,7 +10,7 @@ related_publications: true
 
 In an era where digital content can be crafted and manipulated with alarming ease, the line between reality and artificiality blurs, presenting not only technological advancements but also ethical dilemmas and potential dangers. Deepfake technology, a profound testament to AI's capabilities, allows for the creation of incredibly realistic images and videos that are nearly indistinguishable from authentic content. This rise in synthetic media poses significant risks, from misinformation to identity theft, making it imperative to develop robust mechanisms for discerning these AI-generated fabrications from genuine images.
 
-<b>The Challenge of Synthetic Image Detection:</b>
+<b style="font-size: 24px;">The Challenge of Synthetic Image Detection:</b>
 
 With the Artifact-CycleGAN dataset comprising 15,000 images, split into 80% for training and 20% for validation, the goal was to fine-tune a powerful pre-trained network to classify images as either real or synthetically generated. This binary classification task posed unique challenges, primarily due to the sophisticated quality of AI-generated images which often makes visual differentiation difficult for humans.
 
