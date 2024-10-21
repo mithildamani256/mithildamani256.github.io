@@ -10,19 +10,19 @@ related_publications: false
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this model, it is possible to detect people wearing masks, not wearing them, or wearing masks improperly.
 
-<h2>Model Architecture and Training:</h2>
+<h2>Model Architecture and Training</h2>
 
 The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
 
-<h2>Dataset Preparation and Split:</h2>
+<h2>Dataset Preparation and Split</h2>
 
 The dataset was meticulously prepared with images labeled according to the PASCAL VOC format, ensuring precise localization of masks on individuals' faces. Adhering to a standard training protocol, the data was split into 80% for training and 20% for validation, optimizing for a balanced exposure to various real-world scenarios during model training.
 
-<h2>Fine-tuning YOLOv8:</h2>
+<h2>Fine-tuning YOLOv8</h2>
 
 Fine-tuning was executed through the Ultralytics framework by modifying a YAML configuration file specific to our dataset. This approach allowed the pre-trained YOLOv8 model to adapt effectively to the nuances of mask detection, enhancing its ability to recognize and classify different mask-wearing conditions accurately.
 
-<h2>Results and Performance Evaluation:</h2>
+<h2>Results and Performance Evaluation</h2>
 
 The model's performance was rigorously evaluated through several metrics, crucial for assessing its real-world applicability:
 
@@ -59,7 +59,7 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn'.
 </div>
 
-<h2>Qualitative Analysis:</h2>
+<h2>Qualitative Analysis</h2>
 
 Despite the inherent challenges of varying mask types, wearing styles, and lighting conditions, the model demonstrated a robust capability to discern and accurately classify the mask status on individuals
 
