@@ -10,7 +10,14 @@ related_publications: false
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this model, it is possible to detect people wearing masks, not wearing them, or wearing masks improperly.
 
-<h2>Model Architecture and Training</h2>
+<h2>Model Architecture and Setup</h2>
+
+<p>For this project, YOLOv8 was chosen for its high efficiency and accuracy in object detection, especially in real-time applications. The following key steps and modifications were made to tailor the model for facemask detection:</p>
+
+<h5>Pre-trained Backbone</h5>
+<p>Leveraging YOLOv8’s pre-trained weights on the COCO dataset provided an excellent foundation, as the network already had baseline knowledge of human facial features and common object boundaries. This initialization reduced the need for extensive training from scratch, allowing the model to converge more quickly while focusing on facemask-specific features.</p>
+
+
 
 The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
 
