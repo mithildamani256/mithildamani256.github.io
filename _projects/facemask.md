@@ -13,27 +13,23 @@ Masks play a crucial role in protecting the health of individuals against respir
 <h2>Model Architecture and Setup</h2>
 <p>For this project, YOLOv8 was chosen for its high efficiency and accuracy in object detection, especially in real-time applications. The following key steps and modifications were made to tailor the model for facemask detection:</p>
 
-<h5>Pre-trained Backbone</h5>
+<h4><b>Pre-trained Backbone</b></h4>
 <p>Leveraging YOLOv8’s pre-trained weights on the COCO dataset provided an excellent foundation, as the network already had baseline knowledge of human facial features and common object boundaries. This initialization reduced the need for extensive training from scratch, allowing the model to converge more quickly while focusing on facemask-specific features.</p>
-<h5>Fine-tuning</h5>
-<p>
-The original YOLOv8 model, built for multi-class detection, was adapted using a customized YAML configuration file that defined three specific classes: "mask worn," "mask not worn," and "mask worn incorrectly." The Ultralytics package was used to implement YOLOv8, providing seamless integration with Weights & Biases (WandB) for real-time metric tracking. Leveraging WandB allowed for detailed logging of key metrics, such as precision, recall, and IoU, streamlining model refinement and performance evaluation.
-</p>
-<h5>Data Splitting and Augmentation</h5>
-<p>
-Face Mask Detection dataset was used for training and validation. The dataset comprised of 853 images belonging to 3 classes of individuals with varying face orientations, mask types, and in diverse settings, with an 80-20 train-validation split. 
-</p>
+<h4><b>Fine-tuning</b></h4>
+<p>The original YOLOv8 model, built for multi-class detection, was adapted using a customized YAML configuration file that defined three specific classes: "mask worn," "mask not worn," and "mask worn incorrectly." The Ultralytics package was used to implement YOLOv8, providing seamless integration with Weights & Biases (WandB) for real-time metric tracking. Leveraging WandB allowed for detailed logging of key metrics, such as precision, recall, and IoU, streamlining model refinement and performance evaluation.</p>
+<h4><b>Data Splitting and Augmentation</b></h4>
+<p>Face Mask Detection dataset was used for training and validation. The dataset comprised of 853 images belonging to 3 classes of individuals with varying face orientations, mask types, and in diverse settings, with an 80-20 train-validation split. </p>
 
-<!-- <h2>Training and Optimization Process</h2>
+
+<!-- 
+<h2>Training and Optimization Process</h2>
 <p>Initial training runs highlighted the need for further optimization to stabilize the learning curve and improve accuracy.</p>
-<h3>Learning Rate Fine-Tuning</h3>
+<h5>Learning Rate Fine-Tuning</h5>
 <p>Early observations indicated that a high learning rate caused fluctuating accuracy and loss values. By incrementally reducing the learning rate using a scheduler, the model achieved smoother convergence, allowing for stable accuracy improvements across epochs.</p>
-<h3>Loss function</h3>
-<p>To handle the object detection and localization task, YOLOv8’s default loss functions for bounding box regression, objectness, and classification were employed. This included CIoU (Complete Intersection over Union) loss for precise bounding box localization, objectness loss for identifying facemask presence, and cross-entropy loss for multi-class classification among the three classes: "mask worn," "mask not worn," and "mask worn incorrectly."</p>
-<h3>Learning Rate Fine-Tuning</h3>
-<p>Learning Rate Fine-Tuning: Early observations indicated that a high learning rate caused fluctuating accuracy and loss values. By incrementally reducing the learning rate using a scheduler, the model achieved smoother convergence, allowing for stable accuracy improvements across epochs.</p>
+<h5>Loss function</h5>
+<p>To handle the object detection and localization task, YOLOv8’s default loss functions for bounding box regression, objectness, and classification were employed. This included CIoU (Complete Intersection over Union) loss for precise bounding box localization, objectness loss for identifying facemask presence, and cross-entropy loss for multi-class classification among the three classes: "mask worn," "mask not worn," and "mask worn incorrectly."</p> -->
 
-The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
+<!-- The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
 
 <h2>Dataset Preparation and Split</h2>
 
@@ -84,4 +80,4 @@ This curve demonstrates how the F1 score, a balanced measure of precision and re
 
 Despite the inherent challenges of varying mask types, wearing styles, and lighting conditions, the model demonstrated a robust capability to discern and accurately classify the mask status on individuals
 
-<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>. -->
+<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>. --> -->
