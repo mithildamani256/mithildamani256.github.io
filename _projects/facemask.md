@@ -14,9 +14,16 @@ Masks play a crucial role in protecting the health of individuals against respir
 
 <p>For this project, YOLOv8 was chosen for its high efficiency and accuracy in object detection, especially in real-time applications. The following key steps and modifications were made to tailor the model for facemask detection:</p>
 
-<h5>Pre-trained Backbone</h5>
+<h3>Pre-trained Backbone</h3>
 <p>Leveraging YOLOv8’s pre-trained weights on the COCO dataset provided an excellent foundation, as the network already had baseline knowledge of human facial features and common object boundaries. This initialization reduced the need for extensive training from scratch, allowing the model to converge more quickly while focusing on facemask-specific features.</p>
-
+<h3>Fine-tuning</h3>
+<p>
+The original YOLOv8 model, built for multi-class detection, was adapted using a customized YAML configuration file that defined three specific classes: "mask worn," "mask not worn," and "mask worn incorrectly." The Ultralytics package was used to implement YOLOv8, providing seamless integration with Weights & Biases (WandB) for real-time metric tracking. Leveraging WandB allowed for detailed logging of key metrics, such as precision, recall, and IoU, streamlining model refinement and performance evaluation.
+</p>
+<h3>Data Splitting and Augmentation</h3>
+<p>
+Face Mask Detection dataset was used for training and validation. The dataset comprised of 853 images belonging to 3 classes of individuals with varying face orientations, mask types, and in diverse settings, with an 80-20 train-validation split. 
+</p>
 
 
 The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
