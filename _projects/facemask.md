@@ -10,7 +10,7 @@ related_publications: false
 
 Masks play a crucial role in protecting the health of individuals against respiratory diseases, as is one of the few precautions available for COVID-19 in the absence of immunization. With this model, it is possible to detect people wearing masks, not wearing them, or wearing masks improperly.
 
-<h2>Model Architecture and Setup</h2>
+<h2><b>Model Architecture and Setup<b></h2>
 <p>For this project, YOLOv8 was chosen for its high efficiency and accuracy in object detection, especially in real-time applications. The following key steps and modifications were made to tailor the model for facemask detection:</p>
 <h4><b>Pre-trained Backbone</b></h4>
 <p>Leveraging YOLOv8’s pre-trained weights on the COCO dataset provided an excellent foundation, as the network already had baseline knowledge of human facial features and common object boundaries. This initialization reduced the need for extensive training from scratch, allowing the model to converge more quickly while focusing on facemask-specific features.</p>
@@ -19,7 +19,7 @@ Masks play a crucial role in protecting the health of individuals against respir
 <h4><b>Data Splitting and Augmentation</b></h4>
 <p>Face Mask Detection dataset was used for training and validation. The dataset comprised of 853 images belonging to 3 classes of individuals with varying face orientations, mask types, and in diverse settings, with an 80-20 train-validation split. </p>
 
-<h2>Training and Optimization Process</h2>
+<h2><b>Training and Optimization Process<b></h2>
 <p>Initial training runs highlighted the need for further optimization to stabilize the learning curve and improve accuracy.</p>
 <h4>Learning Rate Fine-Tuning</h4>
 <p>Early observations indicated that a high learning rate caused fluctuating accuracy and loss values. By incrementally reducing the learning rate using a scheduler, the model achieved smoother convergence, allowing for stable accuracy improvements across epochs.</p>
