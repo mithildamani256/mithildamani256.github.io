@@ -10,7 +10,7 @@ giscus_comments: true
 
 WLP4 is a language developed by the CS241 staff at uWaterloo, standing for "Waterloo Language Plus Pointers Plus Procedures". Here is a <a href="https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4tutorial.html">tutorial</a> and here is <a href="https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4.html">the formal language specification</a> . This compiler implements a scanner (simplified maximal munch scanning algorithm), parser (SLR(1) algorithm), type checker and code generator.
 
-Since this was a compiler written for a course, I can provide it privately if contacted at <a href="m3damani@uwaterloo.ca">m3damani@uwaterloo.ca</a>
+Since this was a compiler written for a course, I can provide it privately if contacted at <a href="mailto:m3damani@uwaterloo.ca">m3damani@uwaterloo.ca</a>
 
 <h2><b>Compiler Processes:</b></h2>
 <h4><b>Scanning</b></h4>
