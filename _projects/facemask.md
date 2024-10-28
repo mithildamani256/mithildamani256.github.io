@@ -21,9 +21,9 @@ Masks play a crucial role in protecting the health of individuals against respir
 
 <h2><b>Training and Optimization Process</b></h2>
 <p>Initial training runs highlighted the need for further optimization to stabilize the learning curve and improve accuracy.</p>
-<h4>Learning Rate Fine-Tuning</h4>
+<h4><b>Learning Rate Fine-Tuning</b></h4>
 <p>Early observations indicated that a high learning rate caused fluctuating accuracy and loss values. By incrementally reducing the learning rate using a scheduler, the model achieved smoother convergence, allowing for stable accuracy improvements across epochs.</p>
-<h4>Loss function</h4>
+<h4><b>Loss function</b></h4>
 <p>To handle the object detection and localization task, YOLOv8’s default loss functions for bounding box regression, objectness, and classification were employed. This included CIoU (Complete Intersection over Union) loss for precise bounding box localization, objectness loss for identifying facemask presence, and cross-entropy loss for multi-class classification among the three classes: "mask worn," "mask not worn," and "mask worn incorrectly."</p>
 
 <h2><b>Results and Performance Evaluation</b></h2>
