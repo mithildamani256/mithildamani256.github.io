@@ -26,17 +26,7 @@ Masks play a crucial role in protecting the health of individuals against respir
 <h4>Loss function</h4>
 <p>To handle the object detection and localization task, YOLOv8’s default loss functions for bounding box regression, objectness, and classification were employed. This included CIoU (Complete Intersection over Union) loss for precise bounding box localization, objectness loss for identifying facemask presence, and cross-entropy loss for multi-class classification among the three classes: "mask worn," "mask not worn," and "mask worn incorrectly."</p>
 
-<!-- The project utilized the YOLOv8 model. This pre-trained model was fine-tuned for our specific application using the FaceMask Detection dataset, which comprises 853 images annotated with bounding boxes, representing three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn.'
-
-<h2>Dataset Preparation and Split</h2>
-
-The dataset was meticulously prepared with images labeled according to the PASCAL VOC format, ensuring precise localization of masks on individuals' faces. Adhering to a standard training protocol, the data was split into 80% for training and 20% for validation, optimizing for a balanced exposure to various real-world scenarios during model training.
-
-<h2>Fine-tuning YOLOv8</h2>
-
-Fine-tuning was executed through the Ultralytics framework by modifying a YAML configuration file specific to our dataset. This approach allowed the pre-trained YOLOv8 model to adapt effectively to the nuances of mask detection, enhancing its ability to recognize and classify different mask-wearing conditions accurately.
-
-<h2>Results and Performance Evaluation</h2>
+<h2><b>Results and Performance Evaluation</b></h2>
 
 The model's performance was rigorously evaluated through several metrics, crucial for assessing its real-world applicability:
 
@@ -72,9 +62,3 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 <div class="caption">
 This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn'.
 </div>
-
-<h2>Qualitative Analysis</h2>
-
-Despite the inherent challenges of varying mask types, wearing styles, and lighting conditions, the model demonstrated a robust capability to discern and accurately classify the mask status on individuals
-
-<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/mithildamani/face-mask-detection">here</a>. --> -->
