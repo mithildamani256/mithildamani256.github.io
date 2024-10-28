@@ -41,6 +41,8 @@ Imagine looking at this image of a group of friends walking down the street unde
 <h4><b>Loss Function</b></h4>
 <p>Binary Cross-Entropy with Logits Loss (BCEWithLogitsLoss) was employed to handle the binary classification task, where the model needed to predict a single probability for each image, indicating whether it was real or AI-generated. This configuration minimized misclassifications and improved confidence in binary predictions.</p>
 
+<h2><b>Results and Performance Evaluation</b></h2>
+
 Below are the key graphical representations of our project's outcomes:
 
 <div class="row">
