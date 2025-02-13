@@ -62,3 +62,5 @@ The graph illustrates the trade-offs between precision (accuracy of positive pre
 <div class="caption">
 This curve demonstrates how the F1 score, a balanced measure of precision and recall, varies with different confidence thresholds for the model's predictions on three classes: 'No Mask,' 'Mask On,' and 'Mask Incorrectly Worn'.
 </div>
+
+<b>Kaggle notebook:</b> <a href="https://www.kaggle.com/code/mithildamani/face-mask-detection">here</a>.
