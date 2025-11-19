@@ -15,14 +15,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a fourth-year Honours Computer Science student at the University of Waterloo. Specifically interested in supervised learning, I have developed and fine-tuned neural networks for diverse applications, including image classification and object localization.
+Hello! I'm a fourth-year Honours Computer Science student at the University of Waterloo. 
 
-Currently, I work as a Machine Learning Engineer at Cynapta, where I conducted A/B testing of few-shot and Chain of Thought (CoT) prompting techniques to optimize Chat-GPT’s performance on web-content-based queries. I also Implemented RAG-based system by scraping web content from user-provided URLs and incorporating chat
-history.
-
-Outside the classroom, I enjoy lifting weights and playing.
-
-I am actively seeking opportunities for Summer 2025, where I am eager to bring my skills in machine learning and my passion for tech innovation to a new role. 
+I am actively seeking new grad opportunities for Summer 2026, where I am eager to bring my skills and my passion for tech innovation to a new role. 
 
 <!-- Currently, I work as a Machine Learning Engineer at Cynapta, where I design and implement AI-driven solutions, including prompt-engineering ChatGPT-4 for web-content queries, developing a Next.js and TypeScript UI for social media content, and automating markdown generation and screenshot capture with Puppeteer and Cheerio. I also manage chat history functionality and user authentication for over 1,000 users using Firebase.
 
