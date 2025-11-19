@@ -20,7 +20,7 @@ Hello! I'm a fourth-year Honours Computer Science student at the University of W
 Currently, I work as a Machine Learning Engineer at Cynapta, where I conducted A/B testing of few-shot and Chain of Thought (CoT) prompting techniques to optimize Chat-GPT’s performance on web-content-based queries. I also Implemented RAG-based system by scraping web content from user-provided URLs and incorporating chat
 history.
 
-Outside the classroom, I enjoy lifting weights and playing tennis.
+Outside the classroom, I enjoy lifting weights and playing.
 
 I am actively seeking opportunities for Summer 2025, where I am eager to bring my skills in machine learning and my passion for tech innovation to a new role. 
 
