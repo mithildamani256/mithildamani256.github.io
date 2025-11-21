@@ -50,6 +50,7 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+ninja_keys_show_shortcut: false
 socials_in_search: true
 bib_search: true
 
