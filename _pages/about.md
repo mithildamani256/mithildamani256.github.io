@@ -17,6 +17,8 @@ social: true # includes social icons at the bottom of the page
 
 Hello! I'm a fourth-year Honours Computer Science student at the University of Waterloo. 
 
+I've gained experience across full-stack engineering and machine learning through internships at StackAdapt, Cynapta, Geotab, WealthyPlanet, and Niyo.
+
 I am actively seeking new grad opportunities for Summer 2026, where I am eager to bring my skills and my passion for tech innovation to a new role. 
 
 <!-- Currently, I work as a Machine Learning Engineer at Cynapta, where I design and implement AI-driven solutions, including prompt-engineering ChatGPT-4 for web-content queries, developing a Next.js and TypeScript UI for social media content, and automating markdown generation and screenshot capture with Puppeteer and Cheerio. I also manage chat history functionality and user authentication for over 1,000 users using Firebase.
